@@ -1,0 +1,8 @@
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\bin\Debug\pingpong._1.exe.config
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\bin\Debug\pingpong._1.exe
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\bin\Debug\pingpong._1.pdb
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\obj\Debug\pingpong.1.csprojAssemblyReference.cache
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\obj\Debug\pingpong._1.Properties.Resources.resources
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\obj\Debug\pingpong.1.csproj.GenerateResource.cache
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\obj\Debug\pingpong._1.exe
+C:\Users\Admin\RiderProjects\PingPong\pingpong.1\obj\Debug\pingpong._1.pdb
