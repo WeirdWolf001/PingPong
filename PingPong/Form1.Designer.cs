@@ -60,7 +60,6 @@
             // ovsBall
             // 
             this.ovsBall.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ovsBall.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("ovsBall.BackgroundImage")));
             this.ovsBall.Location = new System.Drawing.Point(90, 100);
             this.ovsBall.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ovsBall.Name = "ovsBall";
