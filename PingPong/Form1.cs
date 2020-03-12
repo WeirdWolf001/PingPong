@@ -24,7 +24,7 @@ namespace PingPong
         {
             //Timer start
             tmrSpiel.Enabled = true;
-            
+            ovsBall.Location = new Point(55, 288);
         }
 
         private void TmrSpiel_Tick(object sender, EventArgs e)
@@ -78,14 +78,15 @@ namespace PingPong
             vsbSchlaegerRechts.Location = new Point(pnlSpiel.Location.X + pnlSpiel.Width, pnlSpiel.Location.Y);
             //Grösse einstellen: gleiche Höhe wie Panel
             vsbSchlaegerRechts.Height = pnlSpiel.Height;
-            //Minimum einstellen auf 0
+            //Min einstellen auf 0
             vsbSchlaegerRechts.Minimum = 0;
-            //Maximum einstellen auf maximale Pixelzahl im Panel
+            //Max einstellen auf maximale Pixelzahl im Panel
             vsbSchlaegerRechts.Maximum = pnlSpiel.Height - picSchlaegerRechts.Height + vsbSchlaegerRechts.LargeChange;
             //aktuellen Wert einstellen von Schläger
             vsbSchlaegerRechts.Value = picSchlaegerRechts.Location.Y;
         }
         
+       //mit A,D,S & W kann man den balllll bewegen 
         protected override bool ProcessDialogKey(Keys keyData)
         {
             if (keyData == Keys.W)
@@ -107,5 +108,9 @@ namespace PingPong
             else return base.ProcessDialogKey(keyData);
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

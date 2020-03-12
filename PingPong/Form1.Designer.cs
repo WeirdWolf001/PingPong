@@ -60,7 +60,7 @@
             // ovsBall
             // 
             this.ovsBall.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ovsBall.Location = new System.Drawing.Point(90, 100);
+            this.ovsBall.Location = new System.Drawing.Point(54, 288);
             this.ovsBall.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ovsBall.Name = "ovsBall";
             this.ovsBall.Size = new System.Drawing.Size(24, 25);
@@ -95,7 +95,7 @@
             // 
             // vsbSchlaegerRechts
             // 
-            this.vsbSchlaegerRechts.Location = new System.Drawing.Point(1072, 64);
+            this.vsbSchlaegerRechts.Location = new System.Drawing.Point(1072, 103);
             this.vsbSchlaegerRechts.Name = "vsbSchlaegerRechts";
             this.vsbSchlaegerRechts.Size = new System.Drawing.Size(25, 588);
             this.vsbSchlaegerRechts.TabIndex = 2;
