@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(PingPong.frmPingPong));
+                new System.ComponentModel.ComponentResourceManager(typeof(frmPingPong));
             this.pnlSpiel = new System.Windows.Forms.Panel();
             this.ovsBall = new System.Windows.Forms.PictureBox();
             this.picSchlaegerRechts = new System.Windows.Forms.PictureBox();
@@ -43,6 +43,9 @@
             ((System.ComponentModel.ISupportInitialize) (this.ovsBall)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.picSchlaegerRechts)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pnlSpiel
+            // 
             this.pnlSpiel.BackColor = System.Drawing.Color.SeaGreen;
             this.pnlSpiel.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("pnlSpiel.BackgroundImage")));
             this.pnlSpiel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -53,14 +56,20 @@
             this.pnlSpiel.Name = "pnlSpiel";
             this.pnlSpiel.Size = new System.Drawing.Size(1005, 580);
             this.pnlSpiel.TabIndex = 0;
-            this.ovsBall.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // ovsBall
+            // 
+            this.ovsBall.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ovsBall.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("ovsBall.BackgroundImage")));
             this.ovsBall.Location = new System.Drawing.Point(90, 100);
             this.ovsBall.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ovsBall.Name = "ovsBall";
-            this.ovsBall.Size = new System.Drawing.Size(25, 25);
+            this.ovsBall.Size = new System.Drawing.Size(24, 25);
             this.ovsBall.TabIndex = 2;
             this.ovsBall.TabStop = false;
+            // 
+            // picSchlaegerRechts
+            // 
             this.picSchlaegerRechts.BackColor = System.Drawing.Color.Black;
             this.picSchlaegerRechts.Location = new System.Drawing.Point(984, 6);
             this.picSchlaegerRechts.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -68,6 +77,9 @@
             this.picSchlaegerRechts.Size = new System.Drawing.Size(7, 78);
             this.picSchlaegerRechts.TabIndex = 1;
             this.picSchlaegerRechts.TabStop = false;
+            // 
+            // btnStart
+            // 
             this.btnStart.Location = new System.Drawing.Point(63, 702);
             this.btnStart.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btnStart.Name = "btnStart";
@@ -76,8 +88,14 @@
             this.btnStart.Text = "Spiel starten";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.BtnStart_Click);
+            // 
+            // tmrSpiel
+            // 
             this.tmrSpiel.Interval = 50;
             this.tmrSpiel.Tick += new System.EventHandler(this.TmrSpiel_Tick);
+            // 
+            // vsbSchlaegerRechts
+            // 
             this.vsbSchlaegerRechts.Location = new System.Drawing.Point(1072, 64);
             this.vsbSchlaegerRechts.Name = "vsbSchlaegerRechts";
             this.vsbSchlaegerRechts.Size = new System.Drawing.Size(25, 588);
@@ -85,6 +103,9 @@
             this.vsbSchlaegerRechts.Value = 50;
             this.vsbSchlaegerRechts.Scroll +=
                 new System.Windows.Forms.ScrollEventHandler(this.VsbSchlaegerRechts_Scroll);
+            // 
+            // lblPunkte
+            // 
             this.lblPunkte.AutoSize = true;
             this.lblPunkte.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
@@ -94,6 +115,9 @@
             this.lblPunkte.Size = new System.Drawing.Size(95, 28);
             this.lblPunkte.TabIndex = 4;
             this.lblPunkte.Text = "Punkte:";
+            // 
+            // txtPunkte
+            // 
             this.txtPunkte.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtPunkte.Location = new System.Drawing.Point(183, 32);
@@ -102,6 +126,9 @@
             this.txtPunkte.Size = new System.Drawing.Size(108, 42);
             this.txtPunkte.TabIndex = 5;
             this.txtPunkte.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // frmPingPong
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1136, 816);

@@ -1,0 +1,9 @@
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\bin\Debug\Rechner_.exe.config
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\bin\Debug\Rechner_.exe
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\bin\Debug\Rechner_.pdb
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\obj\Debug\Rechner_.csprojAssemblyReference.cache
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\obj\Debug\Rechner_.Properties.Resources.resources
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\obj\Debug\Rechner_.csproj.GenerateResource.cache
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\obj\Debug\Rechner_.exe
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\obj\Debug\Rechner_.pdb
+C:\Users\Admin\RiderProjects\PingPong\Rechner_\obj\Debug\Rechner_.Form1.resources
