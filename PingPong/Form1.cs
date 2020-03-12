@@ -85,10 +85,27 @@ namespace PingPong
             //aktuellen Wert einstellen von Schläger
             vsbSchlaegerRechts.Value = picSchlaegerRechts.Location.Y;
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        
+        protected override bool ProcessDialogKey(Keys keyData)
         {
-            throw new System.NotImplementedException();
+            if (keyData == Keys.W)
+            {
+                ovsBall.Location = new Point(ovsBall.Location.X, ovsBall.Location.Y - 20); return true;
+            }
+            else if (keyData == Keys.S)
+            {
+                ovsBall.Location = new Point(ovsBall.Location.X, ovsBall.Location.Y + 20); return true;
+            }
+            else if (keyData == Keys.A)
+            {
+                ovsBall.Location = new Point(ovsBall.Location.X - 20, ovsBall.Location.Y); return true;
+            }
+            else if (keyData == Keys.D)
+            {
+                ovsBall.Location = new Point(ovsBall.Location.X + 20, ovsBall.Location.Y); return true;
+            }
+            else return base.ProcessDialogKey(keyData);
         }
+
     }
 }
